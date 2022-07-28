@@ -127,3 +127,8 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+/resources/output.*
+/resources/password.*
+/resources/token.*
+/resources/bitwarden.*
