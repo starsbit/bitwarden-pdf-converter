@@ -6,6 +6,18 @@ Then run `bitwarden_pdf_converter.py` in the terminal.
 
 ## Installation
 
+### HTML Export
+
+Run the following commands in your terminal
+
+```bash
+pip install jinja2
+pip install json
+python bitwarden_html_converter.py
+```
+
+### PDF Export
+
 Run the following commands in your terminal
 
 ```bash
@@ -19,3 +31,7 @@ For windows install [wkhtmltopdf](https://github.com/wkhtmltopdf/wkhtmltopdf/rel
 Add the path to the wkhtmltopdf executable to your PATH environment variable.
 
 For Linux run `sudo apt-get install wkhtmltopdf`
+
+```bash
+python bitwarden_pdf_converter.py
+```
