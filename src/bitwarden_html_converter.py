@@ -167,5 +167,5 @@ def parse_to_html():
     return loaded_template.render(categories=categories)
 
 
-with open('./resources/output.html', 'w', encoding="utf-8") as html_file:
+with open('./output.html', 'w', encoding="utf-8") as html_file:
     html_file.write(parse_to_html())

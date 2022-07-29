@@ -5,4 +5,4 @@ import pdfkit
 
 from bitwarden_html_converter import parse_to_html
 
-pdfkit.from_string(parse_to_html(), './resources/output.pdf')
+pdfkit.from_string(parse_to_html(), './output.pdf')
